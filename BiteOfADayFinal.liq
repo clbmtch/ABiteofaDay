@@ -1,8 +1,8 @@
 ﻿#Define sources
 MorningAmbient= single("BiteOfADay-Morning-Ambient.wav")
-MorningVO = playlist("morning_vo.m3u")
+MorningVO = playlist(mode="normal", "morning_vo.m3u")
 AfternoonAmbient = single(“BiteOfADay-Afternoon-Ambient.wav”)
-AfternoonVO = playlist(“BiteOfADay-Afternoon.m3u”)
+AfternoonVO = playlist(mode="normal",“BiteOfADay-Afternoon.m3u”)
 EveningAmbient = single("BiteOfADay-Evening-Ambient.wav")
 EveningVO = playlist("BiteOfADay-Evening.m3u")
 #these sources are 20 minutes long exactly
